@@ -19,7 +19,7 @@
     "algoliasearch": "^4.13.1",
     "charter-webfont": "^4.1.0",
     "gatsby": "^4.16.0",
-    "gatsby-plugin-algolia": "^0.26.0",
+    "gatsby-plugin-algatsby servegolia": "^0.26.0",
     "gatsby-plugin-feed": "^4.16.0",
     "gatsby-plugin-gatsby-cloud": "^4.16.0",
     "gatsby-plugin-google-tagmanager": "^4.20.0",
