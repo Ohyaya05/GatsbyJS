@@ -246,7 +246,7 @@ const PostDetailTemplate = ({ data, location }) => {
             >
               <Box sx={{ display: "flex", gap: 2, alignItems: "center" }}>
                 <Avatar
-                  alt="Brian Ruiz"
+                  alt="Sepekan Berkarya"
                   src="../avatar.png"
                   sx={{
                     width: 48,
@@ -261,7 +261,7 @@ const PostDetailTemplate = ({ data, location }) => {
                   BR
                 </Avatar>
                 <Stack>
-                  <Typography variant="body1">Brian Ruiz</Typography>
+                  <Typography variant="body1">Sepekan Berkarya</Typography>
                   <Typography color="text.secondary" variant="body2">
                     {post.frontmatter.date}
                     <Box

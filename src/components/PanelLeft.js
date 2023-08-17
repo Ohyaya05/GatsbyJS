@@ -114,7 +114,7 @@ export default function RightDrawer({ isRootPath, ThemeButton }) {
             handleClose={handleClose}
           />
         </React.Fragment>
-        <React.Fragment>
+        {/* <React.Fragment>
           <Tooltip title="Contact" placement="right" arrow>
             <IconButton onClick={toggleDrawer("bottom", true)}>
               <AlternateEmailOutlinedIcon />
@@ -124,17 +124,17 @@ export default function RightDrawer({ isRootPath, ThemeButton }) {
             open={state["bottom"]}
             onClose={toggleDrawer("bottom", false)}
           />
-        </React.Fragment>
+        </React.Fragment> */}
         {ThemeButton}
       </Box>
       <Box>
-        <Avatar
-          alt="Brian Ruiz"
+        {/* <Avatar
+          alt="Sepekan Berkarya"
           src="https://www.b-r.io/avatar.png"
           sx={{ width: 32, height: 32, backgroundColor: "divider" }}
         >
           BR
-        </Avatar>
+        </Avatar> */}
       </Box>
     </Box>
   )

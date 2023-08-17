@@ -7,36 +7,36 @@ import Stack from "@mui/material/Stack"
 import Typography from "@mui/material/Typography"
 
 const profiles = {
-  github: {
-    name: "GitHub",
-    url: "https://github.com/BrianRuizy",
-    icon: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-    followers: "",
-  },
-  linkedin: {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/brianruizy/",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png",
-    followers: "1227",
-  },
+  // github: {
+  //   name: "GitHub",
+  //   url: "https://github.com/BrianRuizy",
+  //   icon: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+  //   followers: "",
+  // },
+  // linkedin: {
+  //   name: "LinkedIn",
+  //   url: "https://www.linkedin.com/in/brianruizy/",
+  //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png",
+  //   followers: "1227",
+  // },
   instagram: {
     name: "Instagram",
     url: "https://www.instagram.com/brianruizy/",
     icon: "https://johnhoward.on.ca/peterborough/wp-content/uploads/sites/12/2021/03/instagram-logo-svg-vector-for-print.svg",
     followers: "1139",
   },
-  youtube: {
-    name: "YouTube",
-    url: "https://www.youtube.com/channel/UCCIFp-Se_xjfYc94H04oK7Q",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/768px-YouTube_full-color_icon_%282017%29.svg.png",
-    followers: "602",
-  },
-  medium: {
-    name: "Medium",
-    url: "https://medium.com/@brianruizy",
-    icon: "https://miro.medium.com/max/1400/1*psYl0y9DUzZWtHzFJLIvTw.png",
-    followers: "10",
-  },
+  // youtube: {
+  //   name: "YouTube",
+  //   url: "https://www.youtube.com/channel/UCCIFp-Se_xjfYc94H04oK7Q",
+  //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/768px-YouTube_full-color_icon_%282017%29.svg.png",
+  //   followers: "602",
+  // },
+  // medium: {
+  //   name: "Medium",
+  //   url: "https://medium.com/@brianruizy",
+  //   icon: "https://miro.medium.com/max/1400/1*psYl0y9DUzZWtHzFJLIvTw.png",
+  //   followers: "10",
+  // },
 }
 
 const Socials = () => {
@@ -68,7 +68,7 @@ const Socials = () => {
           lineHeight: "20px",
         }}
       >
-        Social media
+        Social Media
       </Typography>
       <Stack spacing={2}>
         {Object.keys(profiles).map(key => {
@@ -107,7 +107,7 @@ const Socials = () => {
                     {profile.followers}
                     {profile.name === "GitHub" && gitFollowers}
                     {" "}
-                    {profile.name === "YouTube" ? "subscribers" : "followers"}
+                    {/* {profile.name === "YouTube" ? "subscribers" : "followers"} */}
                   </Typography>
                 </Box>
               </Box>

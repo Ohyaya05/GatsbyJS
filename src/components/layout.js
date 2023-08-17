@@ -158,8 +158,8 @@ const Layout = ({
                     >
                       {isRootPath && (
                         <Avatar
-                          alt="Brian Ruiz"
-                          src="https://www.b-r.io/avatar.png"
+                          alt="Sepekan Berkarya"
+                          src=""
                           sx={{
                             width: 48,
                             height: 48,
@@ -225,7 +225,7 @@ const Layout = ({
                         },
                       }}
                     >
-                      <Box>
+                      {/* <Box>
                         <Box
                           sx={{
                             display: "flex",
@@ -266,7 +266,7 @@ const Layout = ({
                           to stay up to date on new posts and more. P.S. No
                           spam, unsubscribe any time.
                         </Typography>
-                      </Box>
+                      </Box> */}
                       {extraFooterContent}
                       <Divider sx={{ my: "2rem" }} />
                       <Box
@@ -283,7 +283,7 @@ const Layout = ({
                           to="https://github.com/BrianRuizy/gatsby-medium-blog"
                           target="_blank"
                         >
-                          <Typography
+                          {/* <Typography
                             variant="body2"
                             sx={{ display: "flex", alignItems: "center" }}
                           >
@@ -298,7 +298,7 @@ const Layout = ({
                               sx={{ ml: 0.25, fontSize: "16px" }}
                             />
                             {githubForks}
-                          </Typography>
+                          </Typography> */}
                         </MuiLink>
                         <Typography variant="body2">
                           ©{new Date().getFullYear()}
@@ -310,7 +310,7 @@ const Layout = ({
                               },
                             }}
                           >
-                            {" "}Built by Brian Ruiz
+                            {" "}Built by Sepekan Berkarya
                           </Box>
                         </Typography>
                       </Box>

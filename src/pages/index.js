@@ -126,7 +126,7 @@ const Index = ({ data, location }) => {
               }}
             />
             
-            <Tab
+            {/* <Tab
               label="Gear List"
               component="a"
               href="/gear"
@@ -147,7 +147,7 @@ const Index = ({ data, location }) => {
                 minWidth: "60px",
                 "&.Mui-selected": { color: "text.primary" },
               }}
-            />
+            /> */}
           </Tabs>
         </Box>
         

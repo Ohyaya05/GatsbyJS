@@ -49,7 +49,7 @@ const tagsPanel = () => (
           component={Link}
           to="/tags"
         >
-          Story Topics
+          Topik Berita
         </Typography>
         <Tabs
           value={0}

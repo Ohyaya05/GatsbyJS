@@ -104,7 +104,7 @@ export default function PanelRight({ extraDrawerContent }) {
                   window.location.href = "mailto:brianruiz0123@gmail.com"
                 }}
               >
-                Contact Me
+                Kontak Kami
               </Button>
               <Button
                 variant="outlined"
@@ -123,7 +123,7 @@ export default function PanelRight({ extraDrawerContent }) {
                   <SearchIcon fontSize="small" />
                   Search
                 </Box>
-                ⌘K
+                ⌘SB
               </Button>
               <SearchDialog
                 open={open}
@@ -141,13 +141,13 @@ export default function PanelRight({ extraDrawerContent }) {
                 }}
               >
                 <Box display={"flex"} gap={2} alignItems={"center"}>
-                  <Avatar
-                    alt="Brian Ruiz"
+                  {/* <Avatar
+                    alt="Sepekan Berkarya"
                     src="https://www.b-r.io/avatar.png"
                     sx={{ width: 64, height: 64, backgroundColor: "divider" }}
                   >
                     BR
-                  </Avatar>
+                  </Avatar> */}
                   <div>
                     <Typography
                       variant="h3"
@@ -159,17 +159,23 @@ export default function PanelRight({ extraDrawerContent }) {
                         color: "text.primary",
                       }}
                     >
-                      Brian Ruiz
+                      Sepekan Berkarya
                     </Typography>
-                    <Typography variant="body2" sx={{ color: "text.disabled" }}>
+                    {/* <Typography variant="body2" sx={{ color: "text.disabled" }}>
                       Software Engineer
-                    </Typography>
+                    </Typography> */}
                   </div>
                 </Box>
                 <Typography variant="body2" sx={{  color: "text.secondary" }}>
-                  I'm a full-stack Software Engineer based out of Houston, TX. 
-                  Here you'll find my personal blog posts and case studies 
-                  on all things tech.
+                Media online  di Indonesia yang dikelola oleh PT Sepekan Berkarya. 
+
+                Untuk Rakyat yang berkantor pusat di Yogyakarta merupakan media akselerasi 
+                transformasi digital Indonesia. Kami hadir untuk menyajikan informasi 
+                mutakhir dari Sabang hingga Merauke.
+                Untuk Rakyat berkomitmen sebagai media online terdepan di Indonesia. 
+                Untuk Rakyat mengusung misi dari daerah untuk nasional, 
+                berakar dari keyakinan bahwa setiap dari kita  memiliki tanggung jawab 
+                untuk melestarikan nilai lokal daerah ke seluruh Indonesia.
                 </Typography>
               </Box>
             )}

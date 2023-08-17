@@ -57,7 +57,7 @@ const ComponentName = () => (
             lineHeight: "20px",
           }}
         >
-          Pinned Stories
+          Pinned News
         </Typography>
         <Stack spacing={3}>
           {data.allMdx.nodes.map(item => {
